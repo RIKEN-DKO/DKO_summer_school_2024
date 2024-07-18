@@ -1,8 +1,4 @@
-# DKO_summer_school_2024
-
-
-Sure! Here is the content converted to markdown:
-
+# DKOU Summer School Resources
 ---
 
 # Semantic web

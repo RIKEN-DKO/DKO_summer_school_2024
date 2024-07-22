@@ -26,6 +26,9 @@
 1. **[RDF2Vec](http://rdf2vec.org/)** - A framework for creating RDF graph embeddings using neural language models.
 2. **[Linked Open Data (LOD) Cloud](https://lod-cloud.net/#ipfs)** - A visual representation and catalog of interlinked datasets published in the Linked Data format, showcasing the interconnections of various open data sources.
 
+
+### Databases:
+1. [RIKEN metaDB] (http://metadbdev.riken.jp/) 
 # AI
 
 ### Large Language Models (LLMs) Resources

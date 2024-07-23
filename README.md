@@ -22,6 +22,10 @@
 - **[Learning SPARQL](http://www.learningsparql.com/)** - A comprehensive book by Bob DuCharme, covering everything from the basics to advanced SPARQL queries.
 - **[SPARQL Tutorial by Apache Jena](https://jena.apache.org/tutorials/sparql.html)** - A fast course in SPARQL.
 
+### Ontology
+- **[Ontology Development 101: A Guide to Creating Your First Ontology](https://protege.stanford.edu/publications/ontology_development/ontology)**
+  - an ontology-development methodology for declarative frame-based systems including the steps in the ontology-development process and the complex issues of defining class hierarchies and properties of classes and instances. (type: a primer, topics: ontology, ontology development, author: Natalya F. Noy and Deborah L. McGuinness)
+
 ### Aditional Resources :
 1. **[RDF2Vec](http://rdf2vec.org/)** - A framework for creating RDF graph embeddings using neural language models.
 2. **[Linked Open Data (LOD) Cloud](https://lod-cloud.net/#ipfs)** - A visual representation and catalog of interlinked datasets published in the Linked Data format, showcasing the interconnections of various open data sources.

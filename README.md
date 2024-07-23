@@ -46,7 +46,7 @@
 
 ### Linked Data
 - **[What is Linked Data?](https://www.youtube.com/watch?v=4x_xzT5eF5Q)**
-　　　　-　a short video for non-technical people
+  - a short video for non-technical people
 
 ### Metadata
 

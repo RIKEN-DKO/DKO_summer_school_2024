@@ -3,6 +3,8 @@
 
 # Semantic web
 
+
+
 ### Courses
 1. **[Linked Data and the Semantic Web](https://www.coursera.org/learn/web-data)** - Coursera course on the foundations of linked data and the Semantic Web.
 2. **[Online lectures on Knowledge Graphs - Foundations and Applications](https://www.youtube.com/watch?v=CiU1sMbL3k4&list=PLNXdQl4kBgzubTOfY5cbtxZCgg9UTe-uF&pp=iAQB)**
@@ -12,6 +14,10 @@
 1. **[Semantic Web for the Working Ontologist](https://www.sciencedirect.com/book/9780123859655/semantic-web-for-the-working-ontologist)** - A guide to modeling semantic web data with RDF, RDFS, and OWL.
 2. **[The Web of Data](https://aidanhogan.com/wodata/book.pdf)** - An open access book by Aidan Hogan that provides an in-depth exploration of the concepts, technologies, and applications of the Semantic Web and Linked Data.
 3. **[Linked Data - Evolving the Web into a Global Data Space - ](https://link.springer.com/book/10.1007/978-3-031-79432-2)** - a detailed technical introduction to Linked Data including the publication and consumption. type: a primer, authors: Tom Heath and Christian Bizer, publication year: 2011, ToC: Introduction / Principles of Linked Data / The Web of Data /Linked Data Design Considerations / Recipes for Publishing Linked Data / Consuming Linked Data / Summary and Outlook
+
+- [Books on Semantic Web](https://www.w3.org/2001/sw/wiki/Books)
+  - an information site on books (in English, French, Japanese, etc.) on the Semantic Web and Linked Data
+
 
 ### Books (in Japanese)
 - **セマンティック・ウェブのためのRDF/OWL入門**
@@ -55,6 +61,9 @@
   - type: a tutorial site, authors; UNC, target audience: beginners
 - **[Metadata Standards Catalog](https://rdamsc.bath.ac.uk/)**
   - The RDA Metadata Standards Catalog is a collaborative, open directory of metadata standards applicable to research data. It is offered to the international academic community to help address infrastructure challenges.
+ 
+### Standards
+- [W3C standards and drafts](https://www.w3.org/TR/?tags[0]=data)
 
 ### Aditional Resources :
 1. **[RDF2Vec](http://rdf2vec.org/)** - A framework for creating RDF graph embeddings using neural language models.
@@ -62,7 +71,9 @@
 
 
 ### Databases:
-1. [RIKEN metaDB] (http://metadbdev.riken.jp/) 
+1. [RIKEN metaDB] (http://metadbdev.riken.jp/)
+
+   
 # AI
 
 ### Large Language Models (LLMs) Resources
@@ -97,9 +108,5 @@
 
 
 
-### Reference Information
-- [W3C standards and drafts](https://www.w3.org/TR/?tags[0]=data)
-- [Books on Semantic Web](https://www.w3.org/2001/sw/wiki/Books)
-  - an information site on books (in English, French, Japanese, etc.) on the Semantic Web and Linked Data
 
 ---

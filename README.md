@@ -59,11 +59,12 @@
 - **[What is Metadata?](https://www.ontotext.com/knowledgehub/fundamentals/metadata-fundamental/)**
 - **[Metadata for Data Management: A Tutorial](https://guides.lib.unc.edu/metadata/home)**
   - type: a tutorial site, authors; UNC, target audience: beginners
-- **[Metadata Standards Catalog](https://rdamsc.bath.ac.uk/)**
-  - The RDA Metadata Standards Catalog is a collaborative, open directory of metadata standards applicable to research data. It is offered to the international academic community to help address infrastructure challenges.
+
  
 ### Standards
 - [W3C standards and drafts](https://www.w3.org/TR/?tags[0]=data)
+- **[Metadata Standards Catalog](https://rdamsc.bath.ac.uk/)**
+  - The RDA Metadata Standards Catalog is a collaborative, open directory of metadata standards applicable to research data. It is offered to the international academic community to help address infrastructure challenges.
 
 ### Aditional Resources :
 1. **[RDF2Vec](http://rdf2vec.org/)** - A framework for creating RDF graph embeddings using neural language models.

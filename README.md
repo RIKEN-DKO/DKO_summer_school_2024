@@ -29,7 +29,7 @@
 ### RDF
 1. **[SPARQL Query Language for RDF](https://www.w3.org/TR/rdf-sparql-query/)** - W3C Recommendation on the SPARQL query language.
 2. **[An Introduction to RDF and the Jena RDF API](https://jena.apache.org/tutorials/rdf_api.html)**
-3. **[RDF 1.1 Primer](https://www.w3.org/TR/rdf11-primer/)**
+3. **[RDF 1.1 Primer](https://www.w3.org/TR/rdf11-primer/)** - W3C Working Group Note, 24 June 2014. This primer is designed to provide the reader with the basic knowledge required to effectively use RDF. It introduces the basic concepts of RDF and shows concrete examples of the use of RDF. Secs. 3-5 can be used as a minimalist introduction into the key elements of RDF. 
 
 ### SPARQL
 - **[SPARQL 1.1 Query Language](https://www.w3.org/TR/sparql11-query/)** - The official W3C Recommendation document for SPARQL 1.1.

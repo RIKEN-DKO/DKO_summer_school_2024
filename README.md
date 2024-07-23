@@ -20,9 +20,9 @@
 
 
 ### Books (in Japanese)
-- **セマンティック・ウェブのためのRDF/OWL入門**
+- **[セマンティック・ウェブのためのRDF/OWL入門](https://www.morikita.co.jp/books/mid/082931)**
   - type: a primer, authors: Masahide Kanzaki(神崎 正英), publication year: 2005, target audience: beginners, topics: Semantic Web, RDF, RDF schema, ontology, OWL, metadata, RDF search
-- **セマンティックWebとリンクトデータ**
+- **[セマンティックWebとリンクトデータ](https://www.coronasha.co.jp/np/isbn/9784339028690/)**
   - type: a primer, authors: Ken Kaneiwa(兼岩 憲), publication year**: 2017, target audience: beginners, topics: semantic web, RDF, 共通語彙, Linked Data, SPARQL
   - セマンティック・ウェブに関する主要トピック(RDF， 共通語彙，リンクトデータ，SPARQL等)の技術解説. 目次: セマンティックWebとは/Webとデータ/Webデータ技術/セマンティックWeb技術とRDF/セマンティックWebの共通語彙/リンクトデータ/SPARQL
 

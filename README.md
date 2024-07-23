@@ -10,7 +10,7 @@
 
 ### Books
 1. **[Semantic Web for the Working Ontologist](https://www.sciencedirect.com/book/9780123859655/semantic-web-for-the-working-ontologist)** - A guide to modeling semantic web data with RDF, RDFS, and OWL.
-2. **[The Web of Data](https://aidanhogan.com/webofdatabook/)** - An open access book by Aidan Hogan that provides an in-depth exploration of the concepts, technologies, and applications of the Semantic Web and Linked Data.
+2. **[The Web of Data](https://aidanhogan.com/wodata/book.pdf)** - An open access book by Aidan Hogan that provides an in-depth exploration of the concepts, technologies, and applications of the Semantic Web and Linked Data.
 
 ### RDF
 1. **[SPARQL Query Language for RDF](https://www.w3.org/TR/rdf-sparql-query/)** - W3C Recommendation on the SPARQL query language.

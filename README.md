@@ -29,7 +29,7 @@
 ### RDF
 1. **[SPARQL Query Language for RDF](https://www.w3.org/TR/rdf-sparql-query/)** - W3C Recommendation on the SPARQL query language.
 2. **[An Introduction to RDF and the Jena RDF API](https://jena.apache.org/tutorials/rdf_api.html)**
-3. **[RDF 1.1 Primer](https://www.w3.org/TR/rdf11-primer/)
+3. **[RDF 1.1 Primer](https://www.w3.org/TR/rdf11-primer/)**
 
 ### SPARQL
 - **[SPARQL 1.1 Query Language](https://www.w3.org/TR/sparql11-query/)** - The official W3C Recommendation document for SPARQL 1.1.

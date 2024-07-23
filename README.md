@@ -11,6 +11,10 @@
 ### Books
 1. **[Semantic Web for the Working Ontologist](https://www.sciencedirect.com/book/9780123859655/semantic-web-for-the-working-ontologist)** - A guide to modeling semantic web data with RDF, RDFS, and OWL.
 2. **[The Web of Data](https://aidanhogan.com/wodata/book.pdf)** - An open access book by Aidan Hogan that provides an in-depth exploration of the concepts, technologies, and applications of the Semantic Web and Linked Data.
+3. **[Linked Data - Evolving the Web into a Global Data Space - ](https://link.springer.com/book/10.1007/978-3-031-79432-2)**
+  - a detailed technical introduction to Linked Data including the publication and consumption.
+  - type: a primer, authors: Tom Heath and Christian Bizer, publication year: 2011, ToC: Introduction / Principles of Linked Data / The Web of Data /Linked Data Design Considerations / Recipes for Publishing Linked Data / Consuming Linked
+Data / Summary and Outlook
 
 ### RDF
 1. **[SPARQL Query Language for RDF](https://www.w3.org/TR/rdf-sparql-query/)** - W3C Recommendation on the SPARQL query language.
@@ -24,7 +28,8 @@
 
 ### Ontology
 - **[Ontology Development 101: A Guide to Creating Your First Ontology](https://protege.stanford.edu/publications/ontology_development/ontology)**
-  - an ontology-development methodology for declarative frame-based systems including the steps in the ontology-development process and the complex issues of defining class hierarchies and properties of classes and instances. (type: a primer, topics: ontology, ontology development, author: Natalya F. Noy and Deborah L. McGuinness)
+  - an ontology-development methodology for declarative frame-based systems including the steps in the ontology-development process and the complex issues of defining class hierarchies and properties of classes and instances.
+  - type: a primer, topics: ontology, ontology development, authors: Natalya F. Noy and Deborah L. McGuinness
 
 ### Aditional Resources :
 1. **[RDF2Vec](http://rdf2vec.org/)** - A framework for creating RDF graph embeddings using neural language models.

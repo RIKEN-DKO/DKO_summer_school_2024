@@ -74,7 +74,13 @@
 ### Databases:
 1. [RIKEN metaDB] (http://metadbdev.riken.jp/)
 
-   
+### Conferences:
+- top conferences
+  - [ISWC2024](https://iswc2024.semanticweb.org/event/3715c6fc-e2d7-47eb-8c01-5fe4ac589a52/summary)
+    - The 23rd International Semantic Web Conference(November 11 – 15, 2024)
+  - [ESWC2024](https://2024.eswc-conferences.org/) (May 26 - 30, 2024)
+    - The Extended Semantic Web Conference
+ 
 # AI
 
 ### Large Language Models (LLMs) Resources

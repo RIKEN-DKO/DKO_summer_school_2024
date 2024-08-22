@@ -80,6 +80,10 @@
     - The 23rd International Semantic Web Conference(November 11 – 15, 2024)
   - [ESWC2024](https://2024.eswc-conferences.org/) (May 26 - 30, 2024)
     - The Extended Semantic Web Conference
+- survey
+  - [ISWC/ESWC survey](https://github.com/knowledgegraph-yra/Survey/tree/main/pdf)
+    - survey of all ISWC/ESWC papers (in Japanese)
+    - target: ISWC2020-2023, ESWC2022-2023   
  
 # AI
 

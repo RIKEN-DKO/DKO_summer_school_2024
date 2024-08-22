@@ -54,9 +54,9 @@
 - **[What is Linked Data?](https://www.youtube.com/watch?v=4x_xzT5eF5Q)**
   - a short video for non-technical people
  
-### Open Data
+### Experimental Data
 - example data in physics
-  - **[ESRF open data](https://data.esrf.fr/public)**
+  - **[ESRF open data](https://data.esrf.fr/public) (870)**
   - automatically collected metadata for the ESRF experiments (Only the proposers and experiment team can access these data during an embargo period of three years after the experiment, after which time the data will be automatically made public for other users to see and use. )
 
 ### Metadata

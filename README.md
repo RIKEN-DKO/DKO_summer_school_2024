@@ -80,7 +80,7 @@
 - examples in physics
   - ESRF
     - **[ESRF Data Policy](https://www.esrf.fr/files/live/sites/www/files/about/organisation/ESRF%20data%20policy-web.pdf)**
-    - **[ESRF Data Policy, Storage, and Services](https://www.tandfonline.com/doi/epdf/10.1080/08940886.2019.1608119?needAccess=true)**
+      - **[ESRF Data Policy, Storage, and Services](https://www.tandfonline.com/doi/epdf/10.1080/08940886.2019.1608119?needAccess=true)**
 
 ### Standards
 - [W3C standards and drafts](https://www.w3.org/TR/?tags[0]=data)

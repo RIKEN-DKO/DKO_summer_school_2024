@@ -1,0 +1,72 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+
+SELECT DISTINCT ?class ?term ?termLabel
+###<FROM>###
+WHERE {
+    {
+        SELECT ?class (SAMPLE(?term) AS ?term) WHERE {
+            ?term a ?class.
+            FILTER NOT EXISTS { ?term a owl:Class. }
+            FILTER NOT EXISTS { ?term a rdfs:Class. }
+            FILTER NOT EXISTS { ?term a rdf:Property. }
+            FILTER NOT EXISTS { ?term a owl:DatatypeProperty. }
+            FILTER NOT EXISTS { ?term a owl:ObjectProperty. }
+        }
+        GROUP BY ?class
+        ORDER BY ?class ?term
+    }
+
+    ?term ?p ?o.
+
+    FILTER(!REGEX(STR(?term),"http://www.w3.org/2002/07/owl#","i"))
+    FILTER(!REGEX(STR(?term),"http://www.w3.org/2000/01/rdf-schema#","i"))
+    FILTER(!REGEX(STR(?term),"http://www.w3.org/1999/02/22-rdf-syntax-ns#","i"))
+    FILTER(!REGEX(STR(?term),"http://www.w3.org/2001/XMLSchema#","i"))
+    FILTER(!REGEX(STR(?term),"http://www.ontotext.com/","i"))
+
+    FILTER NOT EXISTS {
+        {
+            ?term a owl:Class.
+        } UNION {
+            ?term a rdfs:Class.
+        } UNION {
+            ?term a rdf:Property.
+        } UNION {
+            ?term a owl:DatatypeProperty.
+        } UNION {
+            ?term a owl:ObjectProperty.
+        }
+    }
+
+    OPTIONAL {
+        ?term ?property ?termLabel1.
+        FILTER(
+            ?property = rdfs:label ||
+            ?property = foaf:name ||
+            ?property = skos:prefLabel ||
+            ?property = dc:title ||
+            ?property = dcterms:title ||
+            ?property = dbo:name ||
+            ?property = dbp:name
+        )
+    }
+
+    BIND(COALESCE(?termLabel1, STR(?term)) AS ?termLabel)
+
+    {
+        SELECT ?term (COUNT(*) as ?qtd) WHERE { 
+            { ?a ?b ?term. }
+            UNION
+            { ?term ?c ?d. }
+        } GROUP BY ?term
+    }
+}
+

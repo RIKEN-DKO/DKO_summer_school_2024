@@ -1,32 +1,3 @@
-# Applied research on large-scale language models in semantic webdata retrieval
-
-
-
-## Example datasets for question to SPARQL generation
-
-### RIKEN MetaDB
-`datasets/rikenmetadb/dataset_train.json`
-
-### BGEE dataset 
-
-https://www.bgee.org/support/tutorial-query-bgee-knowledge-graph-sparql  
-
-Example question:
-`Q01:   Question: What are the species present in Bgee? 
-`
-SPARQL query:
-```
-PREFIX up: <http://purl.uniprot.org/core/>
-SELECT ?species {
-	?species a up:Taxon .
-}
-```
-
-
-### Getting the SPARQL schema (TBOX)
-
-Execute on [RIKEN MetaDB](https://metadb.riken.jp/metadb/sparql) SPARQL - endpoint. Change  `###<FROM>###` to the target database.
-```
 # Prefixes define shorthand notations for URIs, making the query more readable.
 PREFIX owl: <http://www.w3.org/2002/07/owl#>  # Web Ontology Language - defines classes, properties, and individuals
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  # RDF Schema - provides basic elements for describing ontologies
@@ -79,7 +50,3 @@ WHERE {
   # BIND function assigns a value to ?label. If ?label1 is found, it uses that; otherwise, it uses the term itself.
   BIND(COALESCE(?label1, STR(?term)) AS ?label)
 }#LIMIT 100
-
-```
-
-For ABOX see folder `queries`

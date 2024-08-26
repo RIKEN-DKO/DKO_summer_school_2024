@@ -57,7 +57,7 @@
 ### Experimental Data
 - example data in physics
   - **[ESRF open data](https://data.esrf.fr/public) (870)**
-  - automatically collected metadata for the ESRF experiments (Only the proposers and experiment team can access these data during an embargo period of three years after the experiment, after which time the data will be automatically made public for other users to see and use. )
+    - automatically collected metadata for the ESRF experiments (Only the proposers and experiment team can access these data during an embargo period of three years after the experiment, after which time the data will be automatically made public for other users to see and use. )
 
 ### Metadata
 
@@ -67,7 +67,7 @@
 
 ### Metadata models
 - examples
-  - **[CSMD(Core Scientific Metadata Model](https://icatproject.org/user-documentation/csmd/)**
+  - **[CSMD(Core Scientific Metadata Model)](https://icatproject.org/user-documentation/csmd/)**
     - a study-data oriented model which has been developed at STFC over many years. It captures high level information about scientific studies and the data that they produce.
  
 ### Metadata schema
@@ -80,7 +80,7 @@
 - examples in physics
   - ESRF
     - **[ESRF Data Policy](https://www.esrf.fr/files/live/sites/www/files/about/organisation/ESRF%20data%20policy-web.pdf)**
-    - **[ESRF Data Policy, Storage, and Services](https://www.tandfonline.com/doi/epdf/10.1080/08940886.2019.1608119?needAccess=true)**
+      - **[ESRF Data Policy, Storage, and Services](https://www.tandfonline.com/doi/epdf/10.1080/08940886.2019.1608119?needAccess=true)**
 
 ### Standards
 - [W3C standards and drafts](https://www.w3.org/TR/?tags[0]=data)

@@ -140,7 +140,8 @@ More details in `Project_Cedric_Daumas/code/sparql/EndpointRiken.py`.
 ## Training local LLM model
 
 See `Project_Cedric_Daumas/code/training/peft_finetune.py` 
-##Papers 
+
+## Papers 
 ### Paper for generating synthetic data
 Interesting to add these elements to the workflow: https://arxiv.org/pdf/2405.11706
 

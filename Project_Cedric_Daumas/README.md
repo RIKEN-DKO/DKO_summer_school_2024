@@ -83,3 +83,61 @@ WHERE {
 ```
 
 For ABOX see folder `queries`
+
+
+## Generating Synthetic Dataset
+
+Prompt for generating SPARQL datasets for the RIKEN MetadataBase, see `Project_Cedric_Daumas/code/context/prompts.py`. Example to generate dataset `Project_Cedric_Daumas/code/generate_datasets.py`.   
+
+
+## Querying SPARQL endpoint
+
+```python
+    def run_sparql(self, query):
+        if len(query) == 0:
+            print("Empty query", file=sys.stderr)
+            return []
+        query = self.add_database_to_query(query)
+        try:
+            result_set = []
+            if self.url_endpoint is not None and 'http' in self.url_endpoint:
+                encoded_query = urllib.parse.quote(query)
+                full_url = f"{self.url_endpoint}?format=application%2Fsparql-results%2Bjson&query={encoded_query}"
+                response = requests.get(full_url, headers={"Accept": "application/sparql-results+json"})
+                if response.status_code == 200:
+                    results = response.json()
+                    for result in results["results"]["bindings"]:
+                        result_item = {}
+                        for var in result:
+                            if 'datatype' in result[var]:
+                                result_item["?" + var] = f'\"{str(result[var]["value"])}\"^^<{str(result[var]["datatype"])}>'
+                            else:
+                                result_item["?" + var] = str(result[var]["value"])
+                        result_set.append(result_item)
+                else:
+                    print(f"Unexpected response status code: {response.status_code}", file=sys.stderr)
+                    print("Response content:", response.text, file=sys.stderr)
+            else:
+                results = self.run_sparql_rdflib(query)
+                encoder = JSONResultSerializer(results)
+                output = io.StringIO()
+                encoder.serialize(output)
+                print(file=output)
+                for result in results:
+                    result_item = {}
+                    for var in results.vars:
+                        result_item["?" + var] = str(result[var])
+                    result_set.append(result_item)
+            return result_set
+        except Exception as e:
+            print("Error running SPARQL query:", file=sys.stderr)
+            print(query, file=sys.stderr)
+            print("Error message:", e, file=sys.stderr)
+            return None
+
+```
+More details in `Project_Cedric_Daumas/code/sparql/EndpointRiken.py`. 
+
+## Training local LLM model
+
+See `Project_Cedric_Daumas/code/training/peft_finetune.py` 

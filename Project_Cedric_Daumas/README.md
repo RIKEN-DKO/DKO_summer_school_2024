@@ -140,11 +140,11 @@ More details in `Project_Cedric_Daumas/code/sparql/EndpointRiken.py`.
 ## Training local LLM model
 
 See `Project_Cedric_Daumas/code/training/peft_finetune.py` 
-
-## Paper for generating synthetic data
-
+##Papers 
+### Paper for generating synthetic data
 Interesting to add these elements to the workflow: https://arxiv.org/pdf/2405.11706
 
+### Other papers
 https://ceur-ws.org/Vol-3747/text2kg_paper14.pdf
 
 LLM-assisted Knowledge Graph Engineering: Experiments with ChatGPT: https://library.oapen.org/bitstream/handle/20.500.12657/90451/1/978-3-658-43705-3.pdf#page=103

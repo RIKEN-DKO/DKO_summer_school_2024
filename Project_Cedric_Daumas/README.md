@@ -1,7 +1,6 @@
 # Applied research on large-scale language models in semantic webdata retrieval
 
 
-
 ## Example datasets for question to SPARQL generation
 
 ### RIKEN MetaDB

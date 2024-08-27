@@ -143,10 +143,12 @@ See `Project_Cedric_Daumas/code/training/peft_finetune.py`
 
 ## Papers 
 ### Paper for generating synthetic data
-Interesting to add these elements to the workflow: https://arxiv.org/pdf/2405.11706
+Interesting to add these elements to the workflow: 
+INCREASING THE LLM ACCURACY FOR QUESTION ANSWERING:ONTOLOGIES TO THE RESCUE!: https://arxiv.org/pdf/2405.11706
 
 ### Other papers
-https://ceur-ws.org/Vol-3747/text2kg_paper14.pdf
+
+Towards LLM-driven Natural Language Generation based on SPARQL Queries and RDF Knowledge Graphs: https://ceur-ws.org/Vol-3747/text2kg_paper14.pdf
 
 LLM-assisted Knowledge Graph Engineering: Experiments with ChatGPT: https://library.oapen.org/bitstream/handle/20.500.12657/90451/1/978-3-658-43705-3.pdf#page=103
 

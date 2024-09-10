@@ -14,6 +14,7 @@
 1. **[Semantic Web for the Working Ontologist](https://www.sciencedirect.com/book/9780123859655/semantic-web-for-the-working-ontologist)** - A guide to modeling semantic web data with RDF, RDFS, and OWL.
 2. **[The Web of Data](https://aidanhogan.com/wodata/book.pdf)** - An open access book by Aidan Hogan that provides an in-depth exploration of the concepts, technologies, and applications of the Semantic Web and Linked Data.
 3. **[Linked Data - Evolving the Web into a Global Data Space - ](https://link.springer.com/book/10.1007/978-3-031-79432-2)** - a detailed technical introduction to Linked Data including the publication and consumption. type: a primer, authors: Tom Heath and Christian Bizer, publication year: 2011, ToC: Introduction / Principles of Linked Data / The Web of Data /Linked Data Design Considerations / Recipes for Publishing Linked Data / Consuming Linked Data / Summary and Outlook
+4. **[Learning SPARQL: Querying and Updating with SPARQL 1.1](https://www.learningsparql.com/)** - This book teaches you how to use SPARQL 1.1 by starting you off with simple queries that demonstrate the language's query-by-example approach and then taking you through all the key features of the SPARQL 1.1 query and update languages.
 
 - [Books on Semantic Web](https://www.w3.org/2001/sw/wiki/Books)
   - an information site on books (in English, French, Japanese, etc.) on the Semantic Web and Linked Data
@@ -24,7 +25,12 @@
   - type: a primer, authors: Masahide Kanzaki(神崎 正英), publication year: 2005, target audience: beginners, topics: Semantic Web, RDF, RDF schema, ontology, OWL, metadata, RDF search
 - **[セマンティックWebとリンクトデータ](https://www.coronasha.co.jp/np/isbn/9784339028690/)**
   - type: a primer, authors: Ken Kaneiwa(兼岩 憲), publication year**: 2017, target audience: beginners, topics: semantic web, RDF, 共通語彙, Linked Data, SPARQL
-  - セマンティック・ウェブに関する主要トピック(RDF， 共通語彙，リンクトデータ，SPARQL等)の技術解説. 目次: セマンティックWebとは/Webとデータ/Webデータ技術/セマンティックWeb技術とRDF/セマンティックWebの共通語彙/リンクトデータ/SPARQL
+  - セマンティック・ウェブに関する主要トピック(RDF， 共通語彙，リンクトデータ，SPARQL等)の技術解説, toc: セマンティックWebとは/Webとデータ/Webデータ技術/セマンティックWeb技術とRDF/セマンティックWebの共通語彙/リンクトデータ/SPARQL
+- **[Linked Data - Webをグローバルなデータ空間にする仕組み](https://www.kindaikagaku.co.jp/book_list/detail/9784764904279/)**
+  - type: a primer, authors: Tom Heath and Christian Bizer, translators: Hideaki Takeda(武田 英明), et al., published year: 2013, target audience: beginners
+- **[オープンデータ時代の標準Web API　SPARQL](https://nextpublishing.jp/book/6798.html)**
+  - type: a primer, authors: Fumihiro Kato(加藤 文彦), et al., publication year: 2015, target audience: beginners
+  - toc: なぜSPARQLが必要なのか？/SPARQLを支える技術/SPARQLの基本/SPARQLの言語仕様とクエリ/アプリケーション開発/クックブック
 
 ### Semantic web (in general) 
 - **[An Introduction to the Semantic Web](https://youtu.be/V6BR9DrmUQA?si=gAOf2ttWUUjbeSoV)** (6:29)
@@ -44,6 +50,7 @@
 - **[SPARQL Tutorial by Apache Jena](https://jena.apache.org/tutorials/sparql.html)** - A fast course in SPARQL.
 - **[An Overview of SPARQL](https://www.youtube.com/watch?v=L_eB7Z84M4c)**
   - type: a short video lecture (5:38), authors: ontotext, publication year: 2015
+- **[Learning SPARQL: second edition sample data and queries](https://www.learningsparql.com/2ndeditionexamples/index.html)** - Sample data and queries from the book are available from the page.
 
 ### Ontology
 - **[Ontology Development 101: A Guide to Creating Your First Ontology](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf)**
